@@ -35,9 +35,10 @@ You will hear back within 48 hours from us via email.
 
 ## Development server
 
-Run `ng serve` for a dev server. Navigate to http://localhost:4200/. The app will automatically reload if you change any of the source files.
+1. Run `npm i` to install all the related packages. 
+2. Run `ng serve` for the initialization of the dev server.
+3. Navigate to http://localhost:4200/. The app will automatically reload if you change any of the source files.
 
-## Further help
+## Test Cases
 
-Visit the [Angular Documentation](https://angular.io/guide/styleguide) to learn more.
-Styling is to be strictly done with [Tailwind](https://tailwindcss.com/docs/installation).
+1. Run `ng test` to run the test cases.

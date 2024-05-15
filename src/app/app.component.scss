@@ -1,0 +1,27 @@
+* {
+		padding: 0;
+		margin: 0;
+	}
+
+	
+	
+	.gradient {
+		width: 100vw;
+		height: 100vh;
+		background: linear-gradient(334deg, #0c0f1a, #1a1b24, #2b2e3a);
+		background-size: 180% 180%;
+		animation: gradient-animation 6s ease infinite;
+		font-family: 'Montserrat', sans-serif;
+	}
+	
+	@keyframes gradient-animation {
+		0% {
+			background-position: 0% 50%;
+		}
+		50% {
+			background-position: 100% 50%;
+		}
+		100% {
+			background-position: 0% 50%;
+		}
+	}
